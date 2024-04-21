@@ -12,11 +12,18 @@
         margin: 0;
         padding: 0;
     }
-    header, footer {
+    header {
         background-color: #333333; /* Dark gray */
         text-align: center;
         padding: 10px 0;
-        color: #ffffff;
+    }
+    h1 {
+        color: #ffffff; /* White text */
+    }
+    nav a {
+        color: #ffffff; /* White text for links */
+        text-decoration: none;
+        margin: 0 10px;
     }
     section {
         display: flex;
@@ -32,6 +39,7 @@
 </head>
 <body>
 <header>
+    <h1>Photography Blog</h1>
     <nav>
         <a href="#stories">Stories</a>
         <a href="#images">Images</a>
@@ -43,11 +51,7 @@
         <img src="landscape1.jpg" alt="Landscape 1">
         <p>Caption 1</p>
     </article>
-    <article>
-        <img src="landscape2.jpg" alt="Landscape 2">
-        <p>Caption 2</p>
-    </article>
-    <!-- Repeat the article block for each image -->
+    <!-- Add more article blocks for each image -->
 </section>
 <footer>
     <p>&copy; Photography Blog</p>
@@ -58,5 +62,20 @@
         <a href="https://instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
     </div>
 </footer>
+
+<section id="stories">
+    <h2>Stories</h2>
+    <p>This is the Stories page content.</p>
+</section>
+
+<section id="images">
+    <h2>Images</h2>
+    <p>This is the Images page content.</p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>This is the About page content.</p>
+</section>
 </body>
 </html>
